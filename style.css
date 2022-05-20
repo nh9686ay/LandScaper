@@ -1,0 +1,129 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/2707451.png");
+    /* background: url("https://cdn.vox-cdn.com/thumbor/FNRQapctOr2iQ9BA0EAlpNzwiQA=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/15788040/20150428-cloud-computing.0.1489222360.jpg") ; */
+    font-family: 'Fredoka One', cursive;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    animation: bck 20s linear infinite;
+}
+
+@keyframes bck {
+    0%{background-position:0 0};
+    100%{background-position: -2122px 0};
+  } 
+
+
+h1{
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 8em; */
+    /* font-family: 'Fredoka One', cursive; */
+}
+
+h3{
+    color:lightblack;
+    text-align: center;
+}
+/* h3 span{
+    animation: pulse 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes pulse {
+    0% {
+      background-color: #04AA6D;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }  */
+
+
+#start-game{
+    background-color: #4CAF50;
+    padding: 0.9%;
+    margin:10px;
+    border-radius: 25%;
+    border: 2px solid black;
+    /* animation: pulse 5s infinite;
+    animation-direction: alternate; */
+}
+
+/* @keyframes pulse {
+    0% {
+      background-color: #04AA6D;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  } */
+
+body button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.tool-buttons button{
+    background-color: #4CAF50;
+    padding: 0.9%;
+    margin:10px;
+    border: 2px solid black;
+    /* animation: pulse 5s infinite;
+    animation-direction: alternate; */
+    
+}
+.tool-buttons button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+/* @keyframes pulse {
+    0% {
+      background-color: #04AA6D;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  } */
+
+.buy-tools button{
+    background-color: #4CAF50;
+    padding: 0.9%;
+    margin:10px;
+    border: 2px solid black;
+    /* animation: pulse 5s infinite;
+    animation-direction: alternate; */
+}
+
+/* @keyframes pulse {
+    0% {
+      background-color: #04AA6D;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  } */
+
+.buy-tools button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+#total-money{
+    margin:10px;
+    border: 2px solid black;
+    animation: pulse 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes pulse {
+    0% {
+      background-color: #04AA6D;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }

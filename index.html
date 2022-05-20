@@ -1,0 +1,50 @@
+<!-- extra item added
+1. Favicon General Assembly
+2. Background Image
+3. Animation
+4. js
+5.   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font change  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <!--  -->
+    <title>GA HW LANDSCAPE 02/23</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/2/original/CMYK-Red_Small_GeneralAssembly-Cog__1_.png" type="image/x-icon">
+    
+</head>
+
+<body>
+    
+    <H1>A+ LandScape Business</H1>
+    <h3><span>Work hard and Earn Money using tools that you can buy from the toolShop. GoodLuck!</span></h3>
+    <button id="start-game" onclick="playGame()"> Play</button>
+    <div class="tool-buttons"> <span>Money Generator</span> </br>
+        <button id="teeth-earn" onclick="teethInc()">Using teeth, earn $1</button>
+        <button id="scissors-earn" onclick="scissorsInc()">Using Scissors, earn $5</button>
+        <button id="lawnmower-earn" onclick="lawnmowerInc()">Using Lawnmower earn $50</button>
+        <button id="fancy-lawnmower-earn" onclick="fancyLawnmowerInc()">Using Fancy Lawnmower earns $100k</button>
+        <button id="students-earn" onclick="studentsInc()">Using Students earns $250</button>
+    </div>
+    <div class="buy-tools"> <span>THE TOOL SHOP</span></br>
+        <div id="s-remove"><button id="buy-scissors" onclick="buyScissors()">Purchase Scissors for 5</button></div>
+        <div id="l-remove"><button id="buy-lawnmower" onclick="buyLawnmower()">Purchase Lawnmower for 25</button></div>
+        <div id="fl-remove"><button id="buy-fancy-lawnmower" onclick="buyFancyLawnmower()">Purchase Fancy Lawnmower for 250</button></div>
+        <div id="st-remove"><button id="buy-students" onclick="buyStudents()">Purchase students for 500</button></div>
+
+    </div>
+    <div id="total-money">TOTAL BALANCE: </div>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
